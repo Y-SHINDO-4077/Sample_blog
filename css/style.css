@@ -1,0 +1,140 @@
+body{/*中央揃え*/
+    width:920px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+h1,h2,h3,h4,h5{
+    margin:0 0 10px 0;
+    padding:0;
+}/*初期値の設定*/
+
+/*共通部分*/
+.container{
+    width:100%;
+    margin:0 auto 40px auto;
+}
+/*header部分*/
+.logo{
+    text-align:center;
+    font-size:36px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.header-navigation{
+    width:920px;
+    padding:20px 0;
+    background-color:black;
+    
+}
+.header-navigation :after{ /*after 疑似要素*/
+    clear:both;
+    display:block;
+    content:" ";
+}
+.header-navigation li{
+    float:left;
+   
+    color:white;
+    list-style-type:none;
+}
+.header-navigation li a{
+    color:white;
+    padding:0 30px;
+    text-decoration:none;
+}
+.header-navigation :after{
+    clear:both;
+    display:block;
+    content:"";
+}
+
+/*main*/
+article{
+    width:600px;
+    float:left;
+}
+.blog1{
+    height:200px;
+    float:left;
+}
+.image{
+   /* border:2px solid silver;*/
+    width:120px;
+    height:150px;
+    display:block;
+    float:left;
+}
+.blog_article{
+    width:450px;
+    float:left;
+    margin:0 15px;
+    display:block;
+}
+.today_date{
+    color:silver;
+    font-size:10px;
+    /*margin:0 20px;*/
+}
+.blog-title{
+    font-size:22px;
+    color:blue;
+    padding:10px 0;
+}
+.blog-info{
+    font-size:12px; 
+    
+}
+
+
+aside{
+    width:300px;
+    float:left;
+}
+.new-blog-title{
+    font-size:24px;
+    border-bottom:1px solid #dddddd;
+}
+.blog_sample_title{
+    margin:20px 0;
+}
+.image2{
+    width:60px;
+    height:60px;
+    display:block;
+    float:left;
+}
+.new-blog{
+    width:240px;
+}
+.new_today_date{
+    font-size:8px;
+    color:silver
+}
+.new-blog_title{
+    font-size:14px;
+    color:blue;
+    margin-bottom:30px;
+}
+
+
+/*footer*/
+footer{
+    width:920px;
+    
+}
+.copyright{
+   
+    border-top:1px solid #dddddd;
+    font-size:12px;
+    text-align:center;
+    color:#dddddd;
+    padding:20px 0;
+}
+.main:after{
+    clear:both;
+    display:block;
+    content:"";
+}
